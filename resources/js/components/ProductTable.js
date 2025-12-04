@@ -23,7 +23,7 @@ export function renderProductTable(container, products, { onEdit, onDelete }) {
             <th>Name</th>
             <th>SKU</th>
             <th>Price</th>
-            <th>Qty</th>
+            <th>Quantity</th>
             <th>Description</th>
             <th width="1">Actions</th>
           </tr>

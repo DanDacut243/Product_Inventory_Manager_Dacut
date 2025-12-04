@@ -15,7 +15,7 @@ export function renderProductForm(container, form, { onSubmit, onCancel, loading
         <input id="f-price" required type="number" min="0" step="0.01" value="${escapeAttr(form.price ?? '')}" />
       </div>
       <div class="col-3">
-        <label>Qty</label>
+        <label>Quantity</label>
         <input id="f-qty" required type="number" min="0" step="1" value="${escapeAttr(form.quantity ?? '')}" />
       </div>
       <div class="col-12">
